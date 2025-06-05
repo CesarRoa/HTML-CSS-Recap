@@ -1,0 +1,7 @@
+div.tab{
+    display:none;
+}
+
+div.active{
+    display: block;
+}

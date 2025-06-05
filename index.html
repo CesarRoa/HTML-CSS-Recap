@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+
     <title>HTML 101</title>
 </head>
 <body>
-    <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Contact</li>
-        <!-- https://www.youtube.com/watch?v=5L6h_MrNvsk -->
-    </ul>
+    <div>
+        <button onclick="openTab('home')">Home</button>
+        <button onclick="openTab('about')">About</button>
+        <button onclick="openTab('products')">Products</button>
+        <button onclick="openTab('contact')">Contact</button>
+    </div>
+    <div id ="home" class="tab">
+        <h2>Home</h2>
+        <p>This is home</p>
+    </div>
+    <div id ="about" class="tab">
+        <h2>About</h2>
+        <p>This is about</p>
+    </div>
+    <div id ="products" class="tab">
+        <h2>Products</h2>
+        <p>These are products</p>
+    </div>
+    <div id ="contact" class="tab">
+        <h2>Contact</h2>
+        <p>This is contact</p>
+    </div>
 </body>
 </html>
